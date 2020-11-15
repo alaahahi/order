@@ -1,0 +1,14 @@
+[25-Oct-2020 14:01:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home/bibarsiq/app.bibars-iq.com/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:162
+Stack trace:
+#0 /home/bibarsiq/app.bibars-iq.com/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(968): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home/bibarsiq/app.bibars-iq.com/vendor/symfony/var-dumper/Dumper/CliDumper.php(568): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home/bibarsiq/app.bibars-iq.com/vendor/symfony/var-dumper/Dumper/CliDumper.php(259): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home/bibarsiq/app.bibars-iq.com/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(815): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home/bibarsiq/app.bibars-iq.com/vendor/symfony/var-dumper/Cloner/Data.php(401): Symfony\Compone in /home/bibarsiq/app.bibars-iq.com/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 162
+[25-Oct-2020 14:02:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home/bibarsiq/app.bibars-iq.com/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:162
+Stack trace:
+#0 /home/bibarsiq/app.bibars-iq.com/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(968): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home/bibarsiq/app.bibars-iq.com/vendor/symfony/var-dumper/Dumper/CliDumper.php(568): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home/bibarsiq/app.bibars-iq.com/vendor/symfony/var-dumper/Dumper/CliDumper.php(259): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home/bibarsiq/app.bibars-iq.com/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(815): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home/bibarsiq/app.bibars-iq.com/vendor/symfony/var-dumper/Cloner/Data.php(401): Symfony\Compone in /home/bibarsiq/app.bibars-iq.com/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 162
